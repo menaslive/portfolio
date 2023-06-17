@@ -7,6 +7,8 @@
   --clr-rose: #e11d48;
   --clr-indigo: #4f46e5;
 
+  --clr-trans: linear-gradient(315deg, var(--clr-rose), var(--clr-indigo));
+
   /* rose rgb(255, 29, 72) */
   /* indigo rgb(79,70,229) */
 
