@@ -11,8 +11,8 @@
 /* Profile image animation */
 .hero__img-content {
   position: relative;
-  width: 10rem;
-  height: 10rem;
+  width: 6rem;
+  height: 6rem;
   /* background: rgba(0, 0, 0, 0.5); */
   border-radius: 50%;
   overflow: hidden;
@@ -54,7 +54,7 @@
 
 .hero__animate-content {
   position: absolute;
-  inset: 0.75rem;
+  inset: 0.65rem;
   /* border: 6px solid var(--clr-slate400); */
   z-index: 3;
   border-radius: 50%;
@@ -84,26 +84,27 @@
 
 .hero__animate-content h2 {
   position: relative;
-  font-size: var(--size-sm);
+  font-size: var(--size-xxs);
   text-align: center;
   color: var(--clr-light);
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  margin: -2px;
 }
 
 .hero__animate-content h2 span {
   font-weight: 600;
-  font-size: var(--size-xxs);
+  font-size: var(--size-3xxs);
   letter-spacing: 0.05em;
 }
 
 .hero__animate-content .hero__animate-btn {
   position: relative;
-  margin-top: 10px;
+  margin-top: 8px;
   border-radius: 25px;
   font-weight: 600;
-  font-size: var(--size-xxs);
+  font-size: var(--size-3xxs);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   text-decoration: none;
@@ -149,7 +150,7 @@
     gap: 1.5rem;
   }
 
-  .hero__img {
+  .hero__img-content {
     width: 6.5rem;
     height: 6.5rem;
   }
@@ -181,9 +182,21 @@
 
 /* lg */
 @media (min-width: 1024px) {
-  .hero__img {
+  .hero__img-content {
     width: 8rem;
     height: 8rem;
+  }
+
+  .hero__animate-content h2 {
+    font-size: var(--size-xs);
+  }
+
+  .hero__animate-content h2 span {
+    font-size: var(--size-2xxs);
+  }
+
+  .hero__animate-content .hero__animate-btn {
+    font-size: var(--size-2xxs);
   }
 
   .hero__subtitle {
@@ -208,9 +221,21 @@
   .hero {
     gap: 2rem;
   }
-  .hero__img {
+  .hero__img-content {
     width: 10rem;
     height: 10rem;
+  }
+
+  .hero__animate-content h2 {
+    font-size: var(--size-sm);
+  }
+
+  .hero__animate-content h2 span {
+    font-size: var(--size-xxs);
+  }
+
+  .hero__animate-content .hero__animate-btn {
+    font-size: var(--size-xxs);
   }
 
   .hero__subtitle {

@@ -12,6 +12,8 @@
   /* rose rgb(255, 29, 72) */
   /* indigo rgb(79,70,229) */
 
+  --size-3xxs: 0.3rem;
+  --size-2xxs: 0.4rem;
   --size-xxs: 0.5rem;
   --size-xs: 0.75rem;
   --size-sm: 0.875rem;
